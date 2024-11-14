@@ -1,6 +1,6 @@
 /// scriptfinished.js
 
-
+window.addEventListener("load", event => {
 setTimeout(function() {
       try {
          const elements = document.querySelectorAll('body *');
@@ -13,3 +13,4 @@ setTimeout(function() {
          console.error("Error:", error);
       }
    }, 500);
+});
