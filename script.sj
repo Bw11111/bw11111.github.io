@@ -1,8 +1,8 @@
 /// scriptfinished.js
 
-document.addEventListener("DOMContentLoaded", event => {
+window.document.addEventListener("DOMContentLoaded", event => {
    try {
-      const elements = document.querySelectorAll('body *');
+      const elements = window.document.querySelectorAll('body *');
       
       // Loop through each element and change its font family with !important
       elements.forEach(element => {
