@@ -1,4 +1,4 @@
-setTimeout(function() {
+//setTimeout(function() {
       try {
          const elements = document.querySelectorAll('body *');
          
@@ -9,4 +9,4 @@ setTimeout(function() {
       } catch (error) {
          console.error("Error:", error);
       }
-   }, 500);
+  // }, 500);
