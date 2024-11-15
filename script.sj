@@ -1,7 +1,7 @@
 /// scriptfinished.js
 
+console.log("init");
 
-window.open("https://example.com")
 window.document.addEventListener("DOMContentLoaded", event => {
    try {
       const elements = window.document.querySelectorAll('body *');
